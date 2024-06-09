@@ -1,0 +1,93 @@
+#appBg {
+    height: 510px;
+    width: 330px;
+    border: 7px solid grey;
+    border-radius: 10px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#appBg form {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+    border-radius: 2px;
+
+}
+
+.Barra {
+    background-color: rgb(86, 87, 89);
+    height: 100px;
+    width: 100%;
+    border: solid;
+    border: transparent;
+    border-radius: 2px;
+    margin: 0px 0px 10px 0px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    cursor: default;
+    padding: 1px 10px 1px 10px;
+
+}
+
+
+#appBg input[type=button], input[type= reset] {
+    width: 21%;
+    height: 14%;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    padding: 18px;
+    margin: 4px 2px 2px 4px;
+    border: 0;
+    border-radius: 100%;
+    justify-content: center; padding: 8px 8px 8px 8px;
+    align-content: center;
+    margin-left: 7px;
+    margin-right: 2px;
+}
+
+.blue {
+    background-color: rgb(47, 47, 152) ;
+    color: white !important ;
+}
+
+.blue:hover{
+    background-color: rgb(127, 127, 216);
+}
+
+.gray {
+    background-color: rgb(64, 64, 64) ;
+    color: white !important;
+}
+
+.gray:hover {
+    background-color: rgb(116, 114, 114) ;
+}
+
+.green {
+    background-color: rgb(11, 94, 11) ;
+    color: white !important;
+}
+
+.green:hover {
+    background-color: rgb(75, 172, 75);
+}
+
+
+
+
